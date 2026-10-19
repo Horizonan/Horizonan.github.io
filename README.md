@@ -15,6 +15,8 @@ This is a buildless static site. GitHub Pages publishes the root of the existing
 
 To preview, serve this directory with a static HTTP server.
 
+The stylesheet links in all three HTML pages carry a content-version query. Update that version whenever the CSS changes so returning visitors receive the new design immediately.
+
 ## Add a project
 
 Add another `article.project-card` inside the `projects` section of `index.html`, using its own title ID, short factual description, preview, and destination links. Project cards are static HTML so they remain accessible without JavaScript. Push to `master`; Pages publishes automatically. Only list projects that actually exist.
