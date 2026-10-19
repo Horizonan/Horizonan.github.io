@@ -31,7 +31,7 @@ try{
       value=randomDie(6);await renderer.animate([value]);
       status.textContent=`You rolled ${value}`;
       canvas.setAttribute('aria-label',`${skins[selected].name} three-dimensional die showing ${value}`);
-    }catch{status.textContent='Open Rolla to keep playing.';}
+    }catch{status.textContent='Preview unavailable.';}
     finally{
       rolling=false;roll.disabled=false;roll.querySelector('span').textContent='Roll again';
       document.querySelectorAll('button[data-skin]').forEach(b=>b.disabled=false);
@@ -39,5 +39,5 @@ try{
   });
 }catch{
   // The project itself remains a normal link if canvas is unavailable.
-  canvas.hidden=true;status.textContent='Explore the full experience →';
+  canvas.hidden=true;status.textContent='Preview unavailable.';
 }

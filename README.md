@@ -17,6 +17,10 @@ To preview, serve this directory with a static HTTP server.
 
 ## Add a project
 
-Add another `article.project-card` inside the `projects` section of `index.html`, using its own title ID, description, artwork, and destination links. Project cards are static HTML so they remain accessible without JavaScript. Update the two visible collection counts, then push to `master`; Pages publishes automatically. Only list projects that actually exist.
+Add another `article.project-card` inside the `projects` section of `index.html`, using its own title ID, short factual description, preview, and destination links. Project cards are static HTML so they remain accessible without JavaScript. Push to `master`; Pages publishes automatically. Only list projects that actually exist.
 
 The original 2019 pages are retained in the repository history and, where not replaced, in the repository. Rolla remains in its separate repository and continues to publish at `/rolla/`.
+
+## Design constraint
+
+Keep the design focused on the projects. Do not add decorative stars, illustrations, marketing headlines, slogans, badges, counters, filler copy, or coming-soon sections.

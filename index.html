@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f2eb">
-  <meta name="description" content="Useful things. Playful ideas. Explore projects by Horizonan, starting with Rolla, a beautiful 3D dice roller.">
-  <meta property="og:title" content="Horizonan — Useful things. Playful ideas.">
-  <meta property="og:description" content="A home for projects by Horizonan. Explore Rolla, a beautiful 3D dice roller.">
+  <meta name="theme-color" content="#fafafa">
+  <meta name="description" content="Projects by Horizonan. Rolla — a 3D dice roller.">
+  <meta property="og:title" content="Horizonan — Projects">
+  <meta property="og:description" content="Projects by Horizonan. Rolla — a 3D dice roller.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://horizonan.github.io/">
   <link rel="canonical" href="https://horizonan.github.io/">
@@ -14,40 +14,21 @@
   <link rel="stylesheet" href="./assets/fonts/fonts.css">
   <link rel="stylesheet" href="./assets/home.css">
   <script type="module" src="./assets/home.js"></script>
-  <title>Horizonan — Useful things. Playful ideas.</title>
+  <title>Horizonan — Projects</title>
 </head>
 <body>
   <a class="skip-link" href="#projects">Skip to projects</a>
   <div class="shell">
     <header class="site-header">
-      <a class="brand" href="./" aria-label="Horizonan home"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M5 21a13 13 0 0 1 26 0Z" fill="currentColor"/><path d="M5 26h26M11 31h14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><span>horizonan<span class="brand-period">.</span></span></a>
-      <nav aria-label="Main"><a class="nav-projects" href="#projects">Projects <span class="nav-count">01</span></a><a href="https://github.com/Horizonan" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+      <a class="brand" href="./" aria-label="Horizonan home">horizonan</a>
+      <nav aria-label="Main"><a href="https://github.com/Horizonan" target="_blank" rel="noopener noreferrer">GitHub</a></nav>
     </header>
     <main>
-      <section class="hero" aria-labelledby="page-title">
-        <div class="hero-copy">
-          <p class="eyebrow"><span></span> THE PERSONAL PROJECT COLLECTION</p>
-          <h1 id="page-title">Useful things.<br><em>Playful</em> ideas.</h1>
-          <p class="intro">Projects by Horizonan. Yours to explore.</p>
-        </div>
-        <div class="horizon-art" aria-hidden="true">
-          <svg viewBox="0 0 360 300" fill="none">
-            <defs><linearGradient id="sun" x1="180" y1="40" x2="180" y2="224" gradientUnits="userSpaceOnUse"><stop stop-color="#e78655"/><stop offset="1" stop-color="#d9563c"/></linearGradient><clipPath id="sky-window"><path d="M24 208V160a156 156 0 0 1 312 0v48Z"/></clipPath></defs>
-            <path d="M24 208V160a156 156 0 0 1 312 0v48" stroke="#d7d2c5"/>
-            <g clip-path="url(#sky-window)"><circle cx="180" cy="183" r="91" fill="url(#sun)"/><path d="M-10 187q89-52 180-5t200-3M-10 199q89-52 180-5t200-3M-10 211q89-52 180-5t200-3M-10 223q89-52 180-5t200-3M-10 235q89-52 180-5t200-3" stroke="#f5f2eb" stroke-width="2"/></g>
-            <path d="M8 211h344M24 226h312M48 241h264M85 256h190M132 271h96" stroke="#c4bdad" stroke-width="1"/>
-            <path d="M291 63v18m-9-9h18M58 126v10m-5-5h10" stroke="#c06a4a" stroke-width="1.5"/>
-            <circle cx="87" cy="57" r="2" fill="#c06a4a"/>
-          </svg>
-        </div>
-      </section>
-
       <section class="projects" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading"><h2 id="projects-title">The collection <span>01</span></h2><span class="collection-note">SMALL IDEAS, OUT IN THE WORLD</span></div>
+        <h1 id="projects-title">Projects</h1>
         <article class="project-card" aria-labelledby="rolla-title">
           <div class="project-preview" id="rolla-preview">
-            <div class="preview-top"><span class="preview-label"><span></span> A LITTLE PREVIEW</span><span id="preview-result" role="status" aria-live="polite"></span></div>
-            <span class="preview-word" aria-hidden="true">rolla.</span>
+            <span id="preview-result" role="status" aria-live="polite"></span>
             <canvas id="preview-die" role="img" aria-label="A red three-dimensional die showing five"></canvas>
             <div class="preview-controls" id="preview-controls" hidden>
               <div class="swatches" role="group" aria-label="Preview dice skin">
@@ -55,22 +36,18 @@
                 <button class="swatch unicorn" type="button" aria-label="Unicorn skin" aria-pressed="false" data-skin="unicorn"><span></span></button>
                 <button class="swatch blockcraft" type="button" aria-label="Blockcraft skin" aria-pressed="false" data-skin="blockcraft"><span></span></button>
               </div>
-              <button class="preview-roll" id="preview-roll" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="3" width="14" height="14" rx="3" transform="rotate(-12 10 10)"/><path d="M7 7h.01M10 10h.01M13 13h.01"/></svg><span>Try a roll</span></button>
+              <button class="preview-roll" id="preview-roll" type="button"><span>Roll</span></button>
             </div>
-            <noscript><p class="preview-fallback">A little luck is waiting. <a href="https://horizonan.github.io/rolla/">Open Rolla ↗</a></p></noscript>
           </div>
           <div class="project-info">
-            <div class="project-meta"><span>01 / PLAY & UTILITIES</span><span class="live-badge"><i></i> Live</span></div>
-            <h3 id="rolla-title">Rolla<span>.</span></h3>
-            <p class="project-description">Pick a die. Let it roll.<br>A satisfying 3D dice roller for game nights and everyday decisions.</p>
-            <ul class="project-tags" aria-label="Rolla features"><li>3D dice</li><li>9 skins</li><li>Saved rolls</li></ul>
-            <div class="project-actions"><a class="project-link" href="https://horizonan.github.io/rolla/">Open Rolla <span aria-hidden="true">↗</span></a><a class="source-link" href="https://github.com/Horizonan/rolla" target="_blank" rel="noopener noreferrer" aria-label="View Rolla source on GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-14-2 18"/></svg>Source</a></div>
+            <h2 id="rolla-title">Rolla</h2>
+            <p class="project-description">3D dice roller.</p>
+            <div class="project-actions"><a class="project-link" href="https://horizonan.github.io/rolla/">Open Rolla</a><a class="source-link" href="https://github.com/Horizonan/rolla" target="_blank" rel="noopener noreferrer" aria-label="Rolla on GitHub">GitHub</a></div>
           </div>
         </article>
-        <div class="next-project"><span class="next-mark" aria-hidden="true">✳</span><p>More on the horizon.</p><a href="https://github.com/Horizonan" target="_blank" rel="noopener noreferrer">Follow along <span aria-hidden="true">↗</span></a></div>
       </section>
     </main>
-    <footer class="site-footer"><span>© 2026 Horizonan</span><nav aria-label="Legal"><a href="./privacy.html">Privacy</a><a href="./imprint.html">Imprint</a><a href="https://github.com/Horizonan/Horizonan.github.io" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a></nav><a class="back-top" href="#" aria-label="Back to top">↑</a></footer>
+    <footer class="site-footer"><span>© 2026 Horizonan</span><nav aria-label="Legal"><a href="./privacy.html">Privacy</a><a href="./imprint.html">Imprint</a></nav></footer>
   </div>
 </body>
 </html>
