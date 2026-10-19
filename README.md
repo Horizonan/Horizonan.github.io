@@ -24,3 +24,5 @@ The original 2019 pages are retained in the repository history and, where not re
 ## Design constraint
 
 Keep the design focused on the projects. Do not add decorative stars, illustrations, marketing headlines, slogans, badges, counters, filler copy, or coming-soon sections.
+
+Visual polish should come from typography, composition, contrasting surfaces, lighting around the actual product preview, and restrained interaction feedback. Keep the interface visually considered rather than stripping it down to unstyled content.
